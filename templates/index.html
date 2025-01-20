@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User List</title>
+</head>
+<body>
+    <h3>Il mio sito web</h3>
+    <p>Elenco canzoni:</p>
+    <form action="/song/new" method="post">
+        <button type="submit">NEW SONG</button>
+    </form>
+    <br>
+    <table>
+        <thead>
+            <th>ID</th>
+            <th>SONGNAME</th>
+            <th>ACTION</th>
+        </thead>
+        <tbody>
+            {% for song in songs %}
+            <tr>
+                <td>{{ song.GetID() }}</td>
+                <td>{{ song.GetSongName() }}</td>
+                <td>
+                    <form action="/song/edit" method="get">
+                        <button type="submit">EDIT</button>
+                    </form>
+                    <form action="/song/delete" method="post">
+                        <button type="submit">REMOVE</button>
+                    </form>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

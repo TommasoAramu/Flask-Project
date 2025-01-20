@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Song List</title>
+</head>
+<body>
+    <h3>Modifica canzone:</h3>
+    <table>
+        <thead>
+            <th>VALUES</th>
+        </thead>
+        <tbody>
+            <form action="/song/edit" method="post">
+                    <tr>
+                    <td>ID: </td>
+                    <td><input type="text" value="{{ user.GetID }}" name="songId"></td>
+                </tr>
+                <tr>
+                    <td>SONGNAME: </td>
+                    <td><input type="text" value="{{ user.GetSongName }}" name="songName"></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" value="EDIT SONG">
+                    </td>
+                </tr>
+            </form>
+            
+        </tbody>
+    </table>
+</body>
+</html>
