@@ -13,26 +13,29 @@
             <th>VALUES</th>
         </thead>
         <tbody>
-            <form action="/edit" method="post">
-                    <tr>
+            <form action="/update" method="post">
+                <tr>
                     <td>ID: </td>
-                    <td><input type="text" value="{{ song.GetID }}" name="songId"></td>
+                    <!-- Usa direttamente song['id'] -->
+                    <input type="hidden" name="id" value="{{ song['id'] }}">
+                    <td>{{ song['id'] }}</td>
                 </tr>
                 <tr>
-                    <td>SONG NAME: </td>
-                    <td><input type="text" value="{{ song.GetSongName }}" name="songName"></td>
+                    <label for="songName">Nome Canzone:</label>
+                    <input type="text" id="songName" name="songName" value="{{ song['songName'] }}" required>
+                    <br><br>
                 </tr>
                 <tr>
-                    <td>SONG STREAMS: </td>
-                    <td><input type="text" value="{{ song.GetSongStreams }}" name="songStreams"></td>
+                    <label for="songStreams">Numero di Stream:</label>
+                    <input type="text" id="songStreams" name="songStreams" value="{{ song['songStreams'] }}" required>
+                    <br><br>
                 </tr>
                 <tr>
                     <td colspan="2">
-                        <input type="submit" value="EDIT SONG">
+                        <button type="submit">Salva</button>
                     </td>
                 </tr>
             </form>
-            
         </tbody>
     </table>
 </body>
