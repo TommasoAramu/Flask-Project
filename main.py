@@ -5,7 +5,7 @@ template_dir = os.path.abspath("./templates")
 app = Flask(__name__, template_folder=template_dir)
 
 songnames = ['VivaLaVida', '24KMagic', 'APT', 'Pompeii']
-streams = ['20.000', '100.000','2.000.000', '400', '700.000' ]
+streams = ['20.000', '100.000','2.000.000', '4.000', '700.000' ]
 
 class Song:
     def __init__(self, id, songName, songStreams):
