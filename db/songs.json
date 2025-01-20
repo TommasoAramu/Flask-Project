@@ -1,22 +1,7 @@
 [
     {
         "id": 1,
-        "songName": "APT",
-        "songStreams": "2.000.000"
-    },
-    {
-        "id": 2,
-        "songName": "24KMagic",
-        "songStreams": "400"
-    },
-    {
-        "id": 3,
         "songName": "24KMagic",
         "songStreams": "2.000.000"
-    },
-    {
-        "id": 4,
-        "songName": "Pompeii",
-        "songStreams": "20.000"
     }
 ]
