@@ -9,4 +9,8 @@ h3{text-align: center;
     margin-top: 0;
     border-top: 0;
 }
-*{padding: 0px; margin: 0px; border: 0px;}
+*{margin: 0px; border: 0px;}
+table{
+    margin: auto;
+}
+
