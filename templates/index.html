@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Song List</title>
+    <title>User List</title>
+    <link rel="stylesheet" href="../style.css">
 </head>
 <body>
     <h3>Il mio sito web</h3>
@@ -26,11 +27,13 @@
                 <td>{{ song.GetSongName() }}</td>
                 <td>{{ song.GetSongStreams() }}</td>
                 <td>
-                    <form action="/song/edit" method="get">
+                    <form action="/edit" method="get">
+                        <input type="hidden" name="id" value="{{ song.GetID() }}">
                         <button type="submit">EDIT</button>
                     </form>
-                    <form action="/song/delete" method="post">
-                        <button type="submit">REMOVE</button>
+                    <form action="/delete" method="post">
+                        <input type="hidden" name="id" value="{{ song.GetID() }}">
+                        <button type="submit">Delete</button>
                     </form>
                 </td>
             </tr>

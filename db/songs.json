@@ -1,92 +1,22 @@
 [
     {
         "id": 1,
-        "songName": "VivaLaVida",
-        "songStreams": "20.000"
+        "songName": "APT",
+        "songStreams": "2.000.000"
     },
     {
         "id": 2,
         "songName": "24KMagic",
-        "songStreams": "100.000"
+        "songStreams": "400"
     },
     {
         "id": 3,
         "songName": "24KMagic",
-        "songStreams": "400"
+        "songStreams": "2.000.000"
     },
     {
         "id": 4,
-        "songName": "VivaLaVida",
-        "songStreams": "2.000.000"
-    },
-    {
-        "id": 5,
-        "songName": "APT",
-        "songStreams": "2.000.000"
-    },
-    {
-        "id": 6,
-        "songName": "24KMagic",
-        "songStreams": "20.000"
-    },
-    {
-        "id": 7,
-        "songName": "24KMagic",
-        "songStreams": "2.000.000"
-    },
-    {
-        "id": 8,
-        "songName": "APT",
-        "songStreams": "700.000"
-    },
-    {
-        "id": 9,
         "songName": "Pompeii",
-        "songStreams": "700.000"
-    },
-    {
-        "id": 10,
-        "songName": "Pompeii",
-        "songStreams": "2.000.000"
-    },
-    {
-        "id": 11,
-        "songName": "APT",
-        "songStreams": "2.000.000"
-    },
-    {
-        "id": 12,
-        "songName": "VivaLaVida",
-        "songStreams": "700.000"
-    },
-    {
-        "id": 13,
-        "songName": "APT",
-        "songStreams": "700.000"
-    },
-    {
-        "id": 14,
-        "songName": "APT",
-        "songStreams": "700.000"
-    },
-    {
-        "id": 15,
-        "songName": "VivaLaVida",
         "songStreams": "20.000"
-    },
-    {
-        "id": 16,
-        "songName": "24KMagic",
-        "songStreams": "100.000"
-    },
-    {
-        "id": 17,
-        "songName": "VivaLaVida",
-        "songStreams": "20.000"
-    },
-    {
-        "id": 18,
-        "songName": "24KMagic",
-        "songStreams": "400"
     }
 ]

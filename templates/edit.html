@@ -13,18 +13,18 @@
             <th>VALUES</th>
         </thead>
         <tbody>
-            <form action="/song/edit" method="post">
+            <form action="/edit" method="post">
                     <tr>
                     <td>ID: </td>
-                    <td><input type="text" value="{{ user.GetID }}" name="songId"></td>
+                    <td><input type="text" value="{{ song.GetID }}" name="songId"></td>
                 </tr>
                 <tr>
                     <td>SONG NAME: </td>
-                    <td><input type="text" value="{{ user.GetSongName }}" name="songName"></td>
+                    <td><input type="text" value="{{ song.GetSongName }}" name="songName"></td>
                 </tr>
                 <tr>
                     <td>SONG STREAMS: </td>
-                    <td><input type="text" value="{{ user.GetSongStreams }}" name="songStreams"></td>
+                    <td><input type="text" value="{{ song.GetSongStreams }}" name="songStreams"></td>
                 </tr>
                 <tr>
                     <td colspan="2">
