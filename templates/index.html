@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>User List</title>
+    <title>Song List</title>
 </head>
 <body>
     <h3>Il mio sito web</h3>
     <p>Elenco canzoni:</p>
-    <form action="/song/new" method="post">
+    <form action="/new" method="post">
         <button type="submit">NEW SONG</button>
     </form>
     <br>
@@ -16,6 +16,7 @@
         <thead>
             <th>ID</th>
             <th>SONGNAME</th>
+            <th>SONGSTREAMS</th>
             <th>ACTION</th>
         </thead>
         <tbody>
@@ -23,6 +24,7 @@
             <tr>
                 <td>{{ song.GetID() }}</td>
                 <td>{{ song.GetSongName() }}</td>
+                <td>{{ song.GetSongStreams() }}</td>
                 <td>
                     <form action="/song/edit" method="get">
                         <button type="submit">EDIT</button>
