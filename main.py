@@ -4,8 +4,8 @@ import os, json, random
 template_dir = os.path.abspath("./templates")
 app = Flask(__name__, template_folder=template_dir)
 
-songnames = ['VivaLaVida', '24KMagic', 'APT', 'Pompeii']
-streams = ['20.000', '100.000','2.000.000', '4.000', '700.000' ]
+songnames = ['VivaLaVida', '24KMagic', 'APT', 'Pompeii', 'Despacito', 'See You Again', 'Shape of You', 'Uptown Funk', 'Sugar', 'Waka Waka', 'Faded', 'Girls Like You', 'Hello', 'Stressed Out']
+streams = ['10.000.000', '9.000.000','8.000.000', '7.000.000', '6.000.000', '5.000.000', '4.000.000', '3.000.000', '2.000.000', '1.000.000', '900.000', '800.000', '700.000', '600.000', '500.000', '400.000', '300.000', '200.000', '100.000']
 
 class Song:
     def __init__(self, id, songName, songStreams):

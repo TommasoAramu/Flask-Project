@@ -9,25 +9,19 @@
 <body>
     <h3>Modifica canzone:</h3>
     <table>
-        <thead>
-            <th>VALUES</th>
-        </thead>
         <tbody>
             <form action="/update" method="post">
                 <tr>
-                    <td>ID: </td>
-                    <!-- Usa direttamente song['id'] -->
-                    <input type="hidden" name="id" value="{{ song['id'] }}">
-                    <td>{{ song['id'] }}</td>
+                    <input type="hidden" name="id" value="{{ song['id'] }}"> 
                 </tr>
                 <tr>
                     <label for="songName">Nome Canzone:</label>
-                    <input type="text" id="songName" name="songName" value="{{ song['songName'] }}" required>
+                    <input type="text" id="songName" name="songName" value="{{ song['songName'] }}" required style="text-align: center;">
                     <br><br>
                 </tr>
                 <tr>
                     <label for="songStreams">Numero di Stream:</label>
-                    <input type="text" id="songStreams" name="songStreams" value="{{ song['songStreams'] }}" required>
+                    <input type="text" id="songStreams" name="songStreams" value="{{ song['songStreams'] }}" required style="text-align: center;">
                     <br><br>
                 </tr>
                 <tr>

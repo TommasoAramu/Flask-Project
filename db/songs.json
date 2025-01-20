@@ -1,12 +1,22 @@
 [
     {
         "id": 1,
-        "songName": "24KMagic",
-        "songStreams": "2.000.000"
+        "songName": "Shape of You",
+        "songStreams": "700.000"
     },
     {
         "id": 2,
-        "songName": "Pompeii",
-        "songStreams": "700.000"
+        "songName": "Waka Waka",
+        "songStreams": "600.000"
+    },
+    {
+        "id": 3,
+        "songName": "Girls Like You",
+        "songStreams": "400.000"
+    },
+    {
+        "id": 4,
+        "songName": "Stressed Out",
+        "songStreams": "10.000.000"
     }
 ]
