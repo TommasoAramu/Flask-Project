@@ -1,5 +1,5 @@
-body{background-color: black;}
-h1{text-align: center; 
+body{background-color: black; color: white;}
+h3{text-align: center; 
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
     color: greenyellow;
     font-size: xx-large;
@@ -10,3 +10,7 @@ h1{text-align: center;
     border-top: 0;
 }
 *{padding: 0px; margin: 0px; border: 0px;}
+#add{
+    background-color: white;
+    padding: 0px; margin: 0px; border: 0px;
+}
