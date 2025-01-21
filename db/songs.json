@@ -6,17 +6,7 @@
     },
     {
         "id": 2,
-        "songName": "Waka Waka",
-        "songStreams": "600.000"
-    },
-    {
-        "id": 3,
-        "songName": "Girls Like You",
+        "songName": "Sugar",
         "songStreams": "400.000"
-    },
-    {
-        "id": 4,
-        "songName": "Stressed Out",
-        "songStreams": "10.000.000"
     }
 ]
