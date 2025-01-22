@@ -1,12 +1,47 @@
 [
     {
         "id": 1,
-        "songName": "Shape of You",
+        "songName": "euphoria",
         "songStreams": "700.000"
     },
     {
         "id": 2,
         "songName": "Sugar",
         "songStreams": "400.000"
+    },
+    {
+        "id": 3,
+        "songName": "Hello",
+        "songStreams": "2.000.000"
+    },
+    {
+        "id": 4,
+        "songName": "Uptown Funk",
+        "songStreams": "6.000.000"
+    },
+    {
+        "id": 5,
+        "songName": "Pompeii",
+        "songStreams": "8.000.000"
+    },
+    {
+        "id": 6,
+        "songName": "Hello",
+        "songStreams": "700.000"
+    },
+    {
+        "id": 7,
+        "songName": "24 KMagic",
+        "songStreams": "800.000"
+    },
+    {
+        "id": 8,
+        "songName": "APT",
+        "songStreams": "500.000"
+    },
+    {
+        "id": 9,
+        "songName": "Uptown Funk",
+        "songStreams": "8.000.000"
     }
 ]
