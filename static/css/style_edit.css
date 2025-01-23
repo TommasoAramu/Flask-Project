@@ -1,105 +1,135 @@
-/* Impostazioni di base */
-body {
-    font-family: 'Arial', sans-serif;
+/* Stile generale per il body */
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body
+{
+    font-family: 'Playfair Display', serif; /* Applica il font elegante */
     background-color: #121212;
-    color: white;
+    color: #FFFFFF;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    overflow: hidden;
     flex-direction: column;
+    overflow: hidden;
 }
 
+/* Stile per l'intestazione */
 h3 {
-    color: #1DB954;
+    
+    color: #1DB9    54;
     text-align: center;
-    font-size: 32px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
 }
 
-/* Form */
-form {
-    width: 50%;
-    max-width: 600px;
-    margin: 20px auto;
-    background-color: #222;
-    border-radius: 10px;
-    padding: 30px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+/* Stile per la tabella */
+table
+{
+    background-color: #282828;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 3);
+    padding: 20px;
+    width: 400px;
+    margin: auto;
 }
 
-label {
-    font-size: 18px;
-    color: #fff;
-    margin-bottom: 10px;
+/* Stile per le etichette */
+label
+{
     display: block;
-    font-weight: 500;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #FFFFFF;
+    text-align: center;
 }
 
-input[type="text"] {
-    width: 100%;
-    padding: 15px;
-    margin-top: 8px;
-    background-color: #333;
-    border: 1px solid #444;
-    border-radius: 5px;
-    color: white;
+/* Stile per gli input */
+input[type="text"]
+{
+    width: 60%; /* Riduce ulteriormente la larghezza degli input */
+    padding: 15px; /* Aumenta l'altezza degli input */
+    margin-bottom: 20px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    background-color: #1E1E1E;
+    color: #FFFFFF;
     font-size: 16px;
-    transition: border-color 0.3s;
-    box-sizing: border-box; /* Impedisce che il padding aumenti la larghezza totale */
-    margin-bottom: 20px; /* Spazio tra i campi */
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-weight: bold;
+}
+table {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-input[type="text"]:focus {
-    outline: none;
+input[type="text"]:focus
+{
     border-color: #1DB954;
+    outline: none;
+    box-shadow: 0 0 10px rgba(29, 185, 84, 0.8);
+    background-color: #2C2C2C;
 }
 
-button {
-    padding: 15px 20px;
+/* Stile per il pulsante */
+button
+{
     background-color: #1DB954;
-    color: white;
+    color: #FFFFFF;
+    padding: 12px 20px;
     border: none;
-    border-radius: 5px;
-    font-size: 18px;
+    border-radius: 4px;
+    font-size: 16px;
     cursor: pointer;
     width: 100%;
-    margin-top: 20px;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s ease;
 }
 
 button:hover {
-    background-color: #1ed760;
+    background-color: #1ED760;
 }
 
-/* Spaziatura e margini */
-tr {
+/* Spaziatura generale */
+table tr {
     margin-bottom: 15px;
 }
 
 /* Media Queries */
-@media (max-width: 768px)
- {
-    h3 {
-        font-size: 28px;
+@media (max-width: 768px) 
+{
+    h3
+    {
+        font-size: 20px;
     }
 
-    form {
+    table
+    {
         width: 90%;
-        padding: 20px;
+        padding: 15px;
     }
 
-    button {
-        font-size: 16px;
-        padding: 12px 15px;
+    button 
+    {
+        font-size: 14px;
+        padding: 10px;
     }
 
-    input[type="text"] {
-        padding: 12px;
-        font-size:14px;
-    
+    input[type="text"]
+    {
+        padding: 12px; /* Mantiene l'altezza aumentata degli input */
+        font-size: 14px;
+        width: 80%; /* Adatta la larghezza degli input per schermi più piccoli */
     }
 }
