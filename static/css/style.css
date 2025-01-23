@@ -60,3 +60,72 @@ button {
     margin-left: 15px;
     cursor: pointer;
 }
+.content {
+    padding: 20px;
+    transition: transform 0.4s ease;
+}
+
+.search-container {
+    position: relative;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.search-icon {
+    cursor: pointer;
+    transition: transform 0.3s, color 0.3s;
+}
+
+.search-icon:hover {
+    transform: scale(1.2);
+    color: #1DB954;
+}
+
+.search-bar {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    opacity: 0;
+    transition: width 0.4s ease, opacity 0.4s ease;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-size: 16px;
+    outline: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #222222;
+    color: white;
+}
+
+.search-bar.open {
+    width: 250px;
+    opacity: 1;
+}
+
+.content.shift-down {
+    transform: translateY(50px);
+}
+#add {
+    background-color: #1DB954;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+#add:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15), 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+#add svg {
+    width: 28px;
+    height: 28px;
+}   
